@@ -1,0 +1,178 @@
+
+#title{
+	background-color: #ff4c68;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	
+	font-size: 3rem;
+	line-height: 1.5;
+	color:#fff;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	
+	font-size: 3rem;
+	line-height: 1.5;
+	color:#fff;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 1.5;	
+}
+.container-fluid{
+	padding:3% 15% 7%;
+}
+.navbar{
+	margin-bottom: 15px;
+}
+.navbar-brand{
+	color:#fff;
+	font-family: "Ubuntu";
+	font-size: 40px;
+}
+.nav-link{
+	margin:0px 7px;
+	color:#fff;
+	font-size:20px;
+}
+.logo-image{
+	width:55%;
+	transform: rotate(20deg);
+	position: absolute;
+	right:200px;
+}
+.download-btn{
+	margin:5px 8px;
+}
+
+/*features*/
+#features{
+	padding:7% 15%;
+	text-align: center;
+	background-color: #fff;
+	position: relative;
+}
+.features{
+	padding:0px 0px 10px;
+	color:#ef8172;
+}
+.features:hover{
+	color:#ff4c68;
+}
+#features p{
+	font-size: 1rem;
+}
+
+/*testimonials*/
+
+#testimonials{
+	
+	text-align:center;
+	background-color: #ef8172;
+	color:#fff;
+}
+.testimonials-image{
+	margin:20px;
+	width:15%;
+	border-radius: 100%;
+}
+.carousel-item{
+	padding:4% 15%;
+}
+
+/*press*/
+
+#press{
+	padding:2%;
+	text-align:center;
+	background-color: #ef8172;
+}
+#press img{
+	width:15%;
+	margin:0px 20px;
+}
+.card-body h2{
+	color:black;
+}
+
+/*pricing*/
+
+#pricing{
+	padding:100px;
+	text-align: center;
+}
+#pricing h2{
+	font-family: 'Montserrat', sans-serif;
+	
+	font-size: 3rem;
+	line-height: 1.5;
+	color:#000;
+}
+.pricing-col
+{
+	padding:3% 2%;
+}
+
+/*cta*/
+
+#cta{
+	background-color: #ff4c68;
+	text-align: center;
+	padding:2% 15%;
+}
+#cta h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 2rem;
+	line-height: 1.5;
+	color:#fff;
+}
+#cta button{
+	margin-top: 30px;
+}
+
+/*footer*/
+#footer{
+	text-align: center;
+	margin:2% 15%;
+}
+.social-sites{
+	padding:15px 20px;
+}
+#footer p{
+	font-size:15px;
+
+}
+.twitter:hover{
+	color:#1DA1F2;
+}
+.facebook:hover{
+	color:#3b5998;
+}
+.instagram:hover{
+	color:#E1306C;
+}
+.discord:hover{
+	color:#738ADB;
+}
+
+
+/*@media*/
+@media (max-width: 1140px) {
+	.logo-image{
+		position: static;
+		transform: rotate(0);
+	}
+	.title{
+		text-align: center;
+	}
+}
